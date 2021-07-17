@@ -1,8 +1,8 @@
 {
   "name": "use-twilio-video",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "React hooks to manage twilio video state in React application",
-  "author": "nlatifahulfah",
+  "author": "Nur Latifah Ulfah <n.latifahulfah@gmail.com>",
   "license": "MIT",
   "repository": "nlatifahulfah/use-twilio-video",
   "main": "dist/index.js",
