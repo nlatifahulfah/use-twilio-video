@@ -5,22 +5,33 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "prop-types": "^15.6.2",
     "react": "file:../node_modules/react",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.0.1",
+    "twilio": "^3.66.0",
+    "twilio-video": "^2.15.2",
     "use-twilio-video": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node-env-run server --exec nodemon"
   },
+  "proxy": "http://localhost:3001",
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "node-env-run": "^4.0.2",
+    "nodemon": "^2.0.12",
+    "pino-colada": "^2.1.0"
+  }
 }
